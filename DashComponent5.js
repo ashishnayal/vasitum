@@ -2,12 +2,12 @@ import React from 'react'
 import '../../App.css'
 export const DashComponent5 = ({question1, time}) => {
     return (
-        <>
-            <div className="frame-58-HFj" id="I1:136;244:946">
-                <p className="outing-schedule-for-every-departement-dqP" id="I1:136;244:947">
+        <div className="ann-con">
+            <div className="ann-con-1" id="I1:136;244:946">
+                <p className="ann-con-11" id="I1:136;244:947">
                     {question1}
                 </p>
-                <p className="minutes-ago-mAu" id="I1:136;244:948">
+                <p className="ann-con-12" id="I1:136;244:948">
                     {time}
                 </p>
             </div>
@@ -17,6 +17,6 @@ export const DashComponent5 = ({question1, time}) => {
                 <img className="carbon-overflow-menu-horizontal-LtD"
                     src="/api/prod-ap-southeast-1-first-cluster/projects/WD..." id="I1:136;244:953" alt="h2" />
             </div>
-        </>
+        </div>
     )
 }

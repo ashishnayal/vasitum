@@ -1905,54 +1905,184 @@ body {
 .question1 {
   width: 258px;
   height: 24px;
-  font:Poppins;
-  weight:400;
-  size:16px;
+  font: Poppins;
+  weight: 400;
+  size: 16px;
   line-height: 24px;
 }
-.question1-time{
+
+.question1-time {
   width: 258px;
   height: 14px;
-  font:Roboto;
-  weight:400;
-  size:10px;
+  font: Roboto;
+  weight: 400;
+  size: 10px;
   line-height: 14px;
-  color:#686868;
+  color: #686868;
 }
-.question1-setting
-{
+
+.question1-setting {
   width: 68px;
   height: 24px;
   gap: 20px;
 }
-.recent-activity{
-  width:427px;
-  height:258px;
-  top:164px;
-  left:963px;
+
+.recent-activity {
+  width: 427px;
+  height: 258px;
+  top: 164px;
+  left: 963px;
 }
-.recent-activity1{
-  width:427px;
-  height:48px;
+
+.recent-activity1 {
+  width: 427px;
+  height: 48px;
   border-radius: 10px 10px 0px 0px;
-  padding:10px 10px 10px 24px;
-  gap:10px;
-  background-color:#1B204A ;
+  padding: 10px 10px 10px 24px;
+  gap: 10px;
+  background-color: #1B204A;
 }
-.recent-activity1-1{
-  width:393px;
-  height:28px;
-  font: Poppins;
+
+.recent-activity1-1 {
+  width: 393px;
+  height: 28px;
+  font: "Poppins";
   font-size: medium;
-  weight:500;
-  size:18px;
+  weight: 500;
+  size: 18px;
   line-height: 28px;
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
-.recent-2{
-  width:340px;
-  height:92px;
-  top:74px;
-  left:24px;
-  gap:6px;
+
+.recent-activity-bottom {
+  background-color: #161E54;
+}
+
+.recent-2 {
+  width: 340px;
+  height: 92px;
+  top: 74px;
+  left: 24px;
+  gap: 6px;
+}
+
+.recent-date {
+  width: 340px;
+  height: 12px;
+  opacity: 60%;
+  font: "Roboto";
+  weight: 500;
+  size: 10px;
+  line-height: 11.72px;
+  color: #FFFFFF;
+}
+
+.recent-label {
+  width: 340px;
+  height: 28px;
+  font: "Poppins";
+  weight: 500;
+  size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.recent-para {
+  width: 340px;
+  height: 40px;
+  font: "Roboto";
+  weight: 400;
+  size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.recent-bottom {
+  width: 369px;
+  height: 38px;
+  top: 194px;
+  left: 24px;
+  justify-content: space-between;
+}
+
+.p9 {
+  width: 195px;
+  height: 21px;
+  font: "Poppins";
+  weight: 400;
+  size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.button-nus {
+  width: 139px;
+  height: 38px;
+  border-radius: 4px;
+  padding: 10px 16px 10px 16px;
+  gap: 10px;
+  background-color: #FF5151;
+}
+
+.btn-nus {
+  width: 107px;
+  height: 18px;
+  font: "Poppins";
+  weight: 500;
+  size: 14px;
+  line-height: 21px;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.announcement-1 {
+  width: 640px;
+  height: 334px;
+  top: 532px;
+  left: 293px;
+}
+
+.announcement-11 {
+  width: 598px;
+  height: 28px;
+  top: 16px;
+  left: 22px;
+  justify-content: space-between;
+}
+
+.ann-con {
+  width: 600px;
+  height: 68px;
+  top: 60px;
+  left: 20px;
+  border: 0.5px;
+  border-radius: 6px;
+  padding: 12px 16px 12px 16px;
+  gap: 95px;
+  background-color: #E0E0E0;
+}
+
+.ann-con-1 {
+  width: 405px;
+  height: 44px;
+  gap: 6px;
+}
+
+.ann-con-11 {
+  width: 405px;
+  height: 24px;
+  font: "Poppins";
+  weight: 400;
+  size: 16px;
+  line-height: 24px;
+}
+
+.ann-con-12 {
+  width: 405px;
+  height: 14px;
+  font: "Roboto";
+  weight: 400;
+  size: 10px;
+  line-height: 14px;
+  color: #686868;
 }
